@@ -5,20 +5,55 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
-        int x = scn.nextInt();
-        if (x <= 100 && x > 0) ;
-        if (x >= 90) {
-            System.out.println("A");
-        } else if (x < 90 && x >= 80) {
-            System.out.println("B");
-        } else if (x < 80 && x >= 70) {
-            System.out.println("C");
-        } else if (x < 70 && x >= 60) {
-            System.out.println("D");
-        } else if (x < 60) {
-            System.out.println("E");
+        String str = scn.next();
+
+        switch (str) {
+            case "1":
+                System.out.println("Jan");
+                break;
+            case "2":
+                System.out.println("Feb");
+                break;
+
+            case "3":
+                System.out.println("Mar");
+                break;
+
+            case "4":
+                System.out.println("Apr");
+                break;
+
+            case "5" :
+                System.out.println("May");
+                break;
+
+            case "6":
+                System.out.println("Jun");
+                break;
+
+            case "7":
+                System.out.println("Jul");
+                break;
+
+            case "8":
+                System.out.println("Aug");
+                break;
+
+            case "9":
+                System.out.println("Sep");
+                break;
+
+            case "10":
+                System.out.println("Oct");
+                break;
+
+            case "11":
+                System.out.println("Nov");
+                break;
+
+            case "12":
+                System.out.println("Dec");
+                break;
         }
-
-
     }
 }
